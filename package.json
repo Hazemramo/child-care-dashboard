@@ -1,9 +1,9 @@
 {
+  "homepage": "https://Hazemramo.github.io/child-care-dashboard",
   "name": "new_wepsite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hazemramo.github.io/child-care-dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
