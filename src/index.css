@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa:wght@200..800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Teko:wght@300..700&display=swap');
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+.righ_side {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .bottom {
+    width: 100%;
+    background-color: rgba(231, 228, 228, 0.432) !important;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+.outlet {
+  width: 100%;
+  background-color: rgba(231, 228, 228, 0.432) !important;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+
+.image_dev {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  .logo {
+    width: 70px;
+  }
+
+}
+
+
+.drawer {
+  background-color: rgba(231, 228, 228, 0.432) !important;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  position: static !important;
+  left: 0;
+  background-color: rgba(231, 228, 228, 0.432) !important;
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px;
+}
+
+.search_sec {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+
+
+.profile {
+  display: flex;
+  align-items: center;
+
+}
+
+.profile .profile_user {
+  display: flex;
+  flex-direction: column;
+
+  .one {
+    font-weight: bold;
+  }
+
+  .two {
+    color: rgb(156, 156, 156);
+    font-size: 15px;
+
+  }
+
+}
+
+
+.profile img {
+  background-color: rgb(247, 122, 184);
+  padding: 4px;
+  margin: 0 10px 0 0;
+  border-radius: 50%;
+}
