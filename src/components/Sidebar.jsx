@@ -11,7 +11,9 @@ import ListItemText from "@mui/material/ListItemText";
 import MailIcon from "@mui/icons-material/Mail";
 import GroupsIcon from "@mui/icons-material/Groups";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
-import DashboardIcon from '@mui/icons-material/Dashboard';
+import DashboardIcon from "@mui/icons-material/Dashboard";
+// @ts-ignore
+import logo from "../assets/logo.png";
 import "../index.css";
 
 const drawerWidth = 240;
@@ -19,7 +21,7 @@ const drawerWidth = 240;
 const drawer = (
   <div className="drawer">
     <div className="image_dev">
-      <img className="logo" src="/./src/assets/logo.png" alt="" />
+      <img src={logo} alt="Logo" />
     </div>
 
     <Divider />

@@ -5,6 +5,8 @@ import { styled, alpha } from "@mui/material/styles";
 import SearchIcon from "@mui/icons-material/Search";
 import EmailIcon from "@mui/icons-material/Email";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
+// @ts-ignore
+import baby from "../assets/baby.png";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -80,7 +82,7 @@ export default function TopBar() {
           </IconButton>
           <div className="profile">
             <div className="profile_img">
-              <img src="/../src/assets/Baby-one.png" alt="" />
+              <img src={baby} alt="Logo" />
             </div>
             <div className="profile_user">
               <div className="one">Baby one</div>
